@@ -9,7 +9,7 @@ export default function About() {
       <div>
         <div className="grid lg:grid-cols-2 overflow-hidden gap-8">
           {/* LEFT SIDE */}
-          <div className=" p-12 lg:p-16 flex flex-col justify-center">
+          <div className="lg:p-16 flex flex-col justify-center">
             <h2 className="text-4xl md:text-5xl font-extrabold text-brown mb-4">
               Who I Am
             </h2>
@@ -17,7 +17,7 @@ export default function About() {
               Sales professional with 5+ years driving business growth
             </p>
 
-            <p className="text-lg text-dark-alternate leading-relaxed max-w-xl">
+            <p className="text-lg leading-relaxed max-w-xl">
               Experienced in B2B and B2C sales, managing both inbound and
               outbound opportunities across remote and onsite environments.
             </p>
@@ -30,7 +30,7 @@ export default function About() {
               <p className="text-xl tracking-wide font-bold text-primary uppercase">
                 HAFIDH NURHAQQI TARBANI
               </p>
-              <p className="text-xs text-dark-alternate font-semibold mt-1 uppercase">
+              <p className="text-xs font-semibold mt-1 uppercase">
                 SALES DEVELOPMENT REPRESENTATIVE
               </p>
             </div>

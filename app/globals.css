@@ -1,16 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --dark: #111111;
-  --dark-alternate: #1b1918;
   --primary: #d35a24;
   --primary-light: #f8f1ec;
   --brown: #451e06;
 }
 
 @theme inline {
-  --color-dark: var(--dark);
-  --color-dark-alternate: var(--dark-alternate);
   --color-primary: var(--primary);
   --color-primary-light: var(--primary-light);
   --color-brown: var(--brown);
