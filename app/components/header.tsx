@@ -18,12 +18,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Skills", href: "#skills" },
-    { name: "Plan", href: "#plan" },
-    { name: "Experience", href: "#project" },
-    { name: "Future", href: "#future" },
+    { name: "Portfolio", href: "#project" },
   ];
 
   return (
@@ -51,7 +46,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="mailto:hafidhnurhaqqit@gmail.com"
+            href="#contact"
             className="ml-4 px-6 py-2.5 bg-[#D35A24] text-white text-sm font-bold rounded-full hover:bg-[#BC894C] transition-colors shadow-sm"
           >
             Contact Me
